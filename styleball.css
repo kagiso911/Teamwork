@@ -1,0 +1,25 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   width: 19rem;
+   padding: 3rem;
+   margin-left: 20%;
+   font-size: 3rem;
+}
+
+.ball {
+   width: 15rem;
+   height: 15rem;
+   border-radius: 50%;
+   background: rgb(255, 255, 255);
+   background: radial-gradient(
+      circle 8rem at 10rem 8rem,
+      rgba(255, 255, 255, 1) 10%,
+      rgb(172, 175, 175) 100%
+   );
+   margin-left: 25%;
+}
